@@ -3,9 +3,10 @@
 let user = {
     name: "민서",
     years: 21,
+    isAdmin:false
 };
 
-// 여기에 코드를 작성해주세요
+const{Name,age,isAdmin}=user;
 
 alert(Name); // "민서"
 alert(age); // 21
